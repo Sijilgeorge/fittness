@@ -176,26 +176,22 @@ class SignUpPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     GestureDetector(
-                      onTap: () {
-                        // Handle Google icon click
-                      },
+                      onTap: () {},
                       child: Image.asset(
                         'assets/google.png',
-                        width: 40, // Adjust the width as needed
-                        height: 40, // Adjust the height as needed
+                        width: 40,
+                        height: 40,
                       ),
                     ),
                     const SizedBox(
                       width: 20,
-                    ), // Add some spacing between the icons
+                    ),
                     GestureDetector(
-                      onTap: () {
-                        // Handle Facebook icon click
-                      },
+                      onTap: () {},
                       child: Image.asset(
                         'assets/facebook.png',
-                        width: 40, // Adjust the width as needed
-                        height: 40, // Adjust the height as needed
+                        width: 40,
+                        height: 40,
                       ),
                     ),
                   ],
